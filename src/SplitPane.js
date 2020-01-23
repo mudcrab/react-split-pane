@@ -1,6 +1,5 @@
 import React from 'react';
 import PropTypes from 'prop-types';
-import stylePropType from 'react-style-proptype';
 import { polyfill } from 'react-lifecycles-compat';
 
 import Pane from './Pane';
@@ -365,14 +364,9 @@ SplitPane.propTypes = {
   onChange: PropTypes.func,
   onResizerClick: PropTypes.func,
   onResizerDoubleClick: PropTypes.func,
-  style: stylePropType,
-  resizerStyle: stylePropType,
   paneClassName: PropTypes.string,
   pane1ClassName: PropTypes.string,
   pane2ClassName: PropTypes.string,
-  paneStyle: stylePropType,
-  pane1Style: stylePropType,
-  pane2Style: stylePropType,
   resizerClassName: PropTypes.string,
   step: PropTypes.number,
 };
